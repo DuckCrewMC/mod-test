@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmeticloader",
+  "version": "${version}",
+  "name": "Cosmetic Loader",
+  "description": "Load .obj 3D models from a folder and wear them on your player. Open the menu from the escape menu (or press K).",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.cosmeticloader.CosmeticLoaderClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
